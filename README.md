@@ -57,7 +57,7 @@ kubectl version
          app: grafana
      spec:
        containers:
-       - image: grafana/grafana
+       - image: grafana/grafana:v6.2.5
          name: grafana
  ```
  After preparing the deployment yaml file you sould tape those commands :

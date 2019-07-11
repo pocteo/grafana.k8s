@@ -15,5 +15,5 @@ spec:
         app: grafana
     spec:
       containers:
-      - image: grafana/grafana
+      - image: grafana/grafana:v6.2.5
         name: grafana
